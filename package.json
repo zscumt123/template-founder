@@ -1,8 +1,14 @@
 {
-  "name": "template-creator",
+  "name": "template-founder",
   "version": "0.0.1",
+  "description": "a tool for create template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zscumt123/template-founder.git"
+  },
+  "license": "MIT",
   "bin": {
-    "tc": "/bin/tc.js"
+    "tf": "/bin/tf.js"
   },
   "files": [
     "dist",
@@ -33,5 +39,5 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/vitejs/vite/tree/main/packages/create-vite#readme"
+  "homepage": "https://github.com/zscumt123/template-founder#readme"
 }
