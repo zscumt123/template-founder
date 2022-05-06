@@ -40,7 +40,7 @@ export async function getAgent(manager: Array<string>, cwd: string) {
       await execaCommand(`${type} --help`, { cwd })
       return type
     } catch (error) {
-      return execManager(index++)
+      return execManager(++index)
     }
   }
   return execManager(0)
